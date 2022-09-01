@@ -3,6 +3,7 @@ import { SafeAreaView, StatusBar, View } from 'react-native'
 
 import Cesta from './src/telas/telas/index'
 import mock from './src/telas/mocks/cesta'
+import AppLoading from 'expo-app-loading';
 
 
 import {
@@ -18,11 +19,11 @@ export default function App() {
   })
 
   if(!fonteCarregada) {
-    return <View/>
+    return <AppLoading />
   }
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ flex: 1}}>
 
       <StatusBar />
       <Cesta {...mock} />

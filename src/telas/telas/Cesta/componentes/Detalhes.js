@@ -4,7 +4,7 @@ import { View, Image, StyleSheet } from "react-native"
 import Texto from "../../../componentes/Texto"
 // import logo from "../../../../../assets/logo.png"
 
-export default function Detalhes({nome, logoFazenda, nomeFazenda, descricao, preco}) {
+export default function Detalhes({ nome, logoFazenda, nomeFazenda, descricao, preco }) {
     return <>
         <Texto style={styles.nome}>{nome} </Texto>
 
@@ -16,6 +16,7 @@ export default function Detalhes({nome, logoFazenda, nomeFazenda, descricao, pre
         <Texto style={styles.descricao}>{descricao} </Texto>
 
         <Texto style={styles.preco}>{preco} </Texto>
+
     </>
 }
 
@@ -50,5 +51,5 @@ const styles = StyleSheet.create({
         fontSize: 26,
         lineHeight: 42,
         marginTop: 8
-    }
+    },
 })
