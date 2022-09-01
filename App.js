@@ -1,9 +1,9 @@
 import React from 'react';
-import { SafeAreaView, StatusBar, View } from 'react-native'
+import { SafeAreaView, StatusBar} from 'react-native';
 
 import Cesta from './src/telas/telas/index'
 import mock from './src/telas/mocks/cesta'
-import AppLoading from 'expo-app-loading';
+import AppLoading from 'expo-app-loading'
 
 
 import {

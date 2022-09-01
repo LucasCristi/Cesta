@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import { StyleSheet, TouchableOpacity } from "react-native"
 import Texto from "../../../componentes/Texto"
 
@@ -18,7 +18,6 @@ const styles = StyleSheet.create({
         backgroundColor: "#2a9f85",
         paddingVertical: 16,
         borderRadius: 6,
-
     },
     textoBotao: {
         color: "#fff",

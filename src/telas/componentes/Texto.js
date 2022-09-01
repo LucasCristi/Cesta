@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import { StyleSheet, Text } from "react-native"
 
 export default function Texto({ children, style }) { //style refere-se ao estilo da página CESTA referente a descrição

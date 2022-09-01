@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 import Texto from "../../../componentes/Texto"
-import { Image, StyleSheet, View, FlatList } from "react-native"
+import { Image, StyleSheet, View } from "react-native"
 
 export default function Item({ item: { nome, imagem } }) {
 
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     },
     imagem: {
         width: 46,
-        height: 46
+        height: 45
     },
     nome: {
         fontSize: 16,
